@@ -20,6 +20,10 @@
  *  This file is part of Mbed TLS (https://tls.mbed.org)
  */
 
+void alarm(int s) {
+
+}
+
 /*
  * Ensure gmtime_r is available even with -std=c99; must be defined before
  * config.h, which pulls in glibc's features.h. Harmless on other platforms.
